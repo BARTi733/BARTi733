@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"
+        <title>первый сайт</title>
+    </head>
+    <body>
+         <table border="2">
+              <tr>
+                 <th>Батыжев</th>
+                 <th>Руслан</th>
+                 <th>Темурович</th>
+              </tr>
+              
+              <tr>
+                 <td> первый </td>
+                 <td> второй </td>
+                 <td> третий </td>
+              </tr>   
+         </table>
+         
+          <input placeholder="Поиск"  >
+          
+          <textarea></textarea>
+          
+          <audio controls>
+              <source src="music. mp3" type="audio/mpeg">
+          </audio>
+    </body>
+    
+</html>
+    
