@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8"
+        <meta charset="UTF-8">
         <title>первый сайт</title>
     </head>
     <body>
@@ -19,8 +19,8 @@
               </tr>   
          </table>
          
-          <input placeholder="Поиск"  >
-          
+          <input placeholder="Поиск">
+          </input>
           <textarea></textarea>
           
           <audio controls>
