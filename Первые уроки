@@ -1,32 +1,58 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>первый сайт</title>
-    </head>
-    <body>
-         <table border="2">
-              <tr>
-                 <th>Батыжев</th>
-                 <th>Руслан</th>
-                 <th>Темурович</th>
-              </tr>
-              
-              <tr>
-                 <td> первый </td>
-                 <td> второй </td>
-                 <td> третий </td>
-              </tr>   
-         </table>
-         
-          <input placeholder="Поиск">
-          </input>
-          <textarea></textarea>
-          
-          <audio controls>
-              <source src="music. mp3" type="audio/mpeg">
-          </audio>
-    </body>
-    
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="descrition" content="Киномонстр - это портал о кино"/>
+	<meta name="keywords" content="фильмы, фильмы онлайн, hd"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+				<div class="logo_text">
+ 					<h1><a href="/">Киномонстр</a></h1>
+					<h2>Кино - наша страсть!</h2>
+ 				</div>
+			   </div>
+
+			  <div class="menubar">	
+			   		
+			<ul class="menu">
+			   	<li class="selected"><a href="#">Главная</a><li>
+				<li><a href="#">Фильмы</a></li>
+				<li><a href="#">Сериалы</a></li>
+				<li><a href="#">Рейтинг фильмов</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			   
+
+			   </div>
+			</div>
+
+
+
+
+			<div class="site_content">
+				<div class="sitebar_container">
+					<div class="sidbar">
+						
+			<h2>Поиск</h2>
+			<forma method="post"action="#" id="search_form">
+				<input type="search" name="search_field" placeholder="ваш запрос">
+                <input type="subit" class="btn" value="найти"/>
+            </form>
+
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+
+
+</body>
 </html>
-    
